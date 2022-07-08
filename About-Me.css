@@ -61,7 +61,7 @@
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 499px;
+    min-height: 512px;
   }
 
   .u-section-1 .u-text-1 {
@@ -78,13 +78,18 @@
   }
 
   .u-section-1 .u-text-3 {
-    margin-top: -50px;
-    margin-right: 275px;
+    width: auto;
+    margin-top: 10px;
+    margin-right: 305px;
+    margin-left: 30px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-top: 62px;
   }
 
   .u-section-1 .u-image-1 {
     min-height: 512px;
-    background-size: auto 120%;
   }
 }
 
@@ -94,7 +99,7 @@
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 100px;
+    min-height: 613px;
   }
 
   .u-section-1 .u-text-1 {
@@ -109,13 +114,19 @@
   }
 
   .u-section-1 .u-text-3 {
-    margin-top: -63px;
-    margin-right: 165px;
+    margin-top: 14px;
+    margin-right: 186px;
+    margin-left: 39px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-top: 39px;
+    margin-right: 76px;
   }
 
   .u-section-1 .u-image-1 {
     min-height: 613px;
-    background-position: 28.09% 90.11%;
+    background-position: 28.09% 31.89%;
   }
 
   .u-section-1 .u-container-layout-2 {
@@ -126,7 +137,15 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 100px;
+    min-height: 1170px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-bottom: 10px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 479px;
   }
 
   .u-section-1 .u-text-1 {
@@ -139,11 +158,17 @@
   }
 
   .u-section-1 .u-text-3 {
-    margin-top: -50px;
+    margin-right: 195px;
+    margin-left: 30px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-top: 36px;
   }
 
   .u-section-1 .u-image-1 {
-    min-height: 920px;
+    min-height: 639px;
+    background-position: 28.09% 4.16%;
   }
 
   .u-section-1 .u-container-layout-2 {
@@ -172,20 +197,18 @@
   }
 
   .u-section-1 .u-text-3 {
-    width: auto;
     margin-top: 8px;
     margin-right: 188px;
-    margin-left: 30px;
   }
 
   .u-section-1 .u-btn-2 {
     margin-top: 21px;
+    margin-right: 0;
   }
 
   .u-section-1 .u-image-1 {
     min-height: 209px;
-    background-position: 76.62% 53.65%;
-    background-size: 120%;
+    background-position: 45.47% 53.65%;
     order: 0;
   }
 }.u-section-2 .u-sheet-1 {
