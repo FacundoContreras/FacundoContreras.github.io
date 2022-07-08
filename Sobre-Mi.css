@@ -47,9 +47,8 @@
 
 .u-section-1 .u-image-1 {
   min-height: 431px;
-  background-image: url("images/1210_109.jpg");
-  background-position: 17.29% 86.94%;
-  background-size: auto 120%;
+  background-image: url("images/YO1.png");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -89,6 +88,7 @@
 
   .u-section-1 .u-image-1 {
     min-height: 512px;
+    background-size: auto 120%;
   }
 }
 
