@@ -300,10 +300,6 @@
   .u-section-2 .u-layout-cell-2 {
     min-height: 330px;
   }
-
-  .u-section-2 .u-icon-2 {
-    color: rgb(59, 89, 152) !important;
-  }
 }
 
 @media (max-width: 991px) {
