@@ -10,7 +10,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 361px auto 0 calc(((100% - 1140px) / 2));
+  margin: 361px 520px 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -32,6 +32,7 @@
     width: 633px;
     margin-top: 196px;
     margin-left: auto;
+    margin-right: auto;
   }
 
   .u-section-1 .u-btn-1 {
@@ -48,7 +49,9 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-text-1 {
-    width: 540px;
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 }
 
@@ -56,6 +59,8 @@
   .u-section-1 .u-text-1 {
     width: 339px;
     margin-top: 180px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .u-section-1 .u-btn-1 {

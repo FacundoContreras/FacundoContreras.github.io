@@ -48,6 +48,10 @@
   transition-duration: 4.25s;
 }
 
+.u-section-1 .u-back-image-4 {
+  object-position: 50% 70.29%;
+}
+
 .u-section-1 .u-over-slide-4 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
   padding: 20px;
@@ -142,6 +146,10 @@
   transition-duration: 4.25s;
 }
 
+.u-section-1 .u-back-image-14 {
+  object-position: 50% 83.82%;
+}
+
 .u-section-1 .u-over-slide-14 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
   padding: 20px;
@@ -223,7 +231,7 @@
 }
 
 .u-section-1 .u-back-image-22 {
-  object-position: 50% 83.93%;
+  object-position: 50% 100%;
 }
 
 .u-section-1 .u-over-slide-22 {
@@ -242,6 +250,10 @@
 
 .u-section-1 .u-back-slide-24 {
   transition-duration: 4.25s;
+}
+
+.u-section-1 .u-back-image-24 {
+  object-position: 50% 76.66%;
 }
 
 .u-section-1 .u-over-slide-24 {
@@ -263,7 +275,7 @@
 }
 
 .u-section-1 .u-back-image-26 {
-  object-position: 50% 39.15%;
+  object-position: 50% 66.43%;
 }
 
 .u-section-1 .u-over-slide-26 {
@@ -273,6 +285,10 @@
 
 .u-section-1 .u-back-slide-27 {
   transition-duration: 4.25s;
+}
+
+.u-section-1 .u-back-image-27 {
+  object-position: 50% 37.66%;
 }
 
 .u-section-1 .u-over-slide-27 {
@@ -291,6 +307,10 @@
 
 .u-section-1 .u-back-slide-29 {
   transition-duration: 4.25s;
+}
+
+.u-section-1 .u-back-image-29 {
+  object-position: 50% 91.33%;
 }
 
 .u-section-1 .u-over-slide-29 {
