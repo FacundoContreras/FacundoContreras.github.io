@@ -1,9 +1,6 @@
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("/images/GALLERY25.jpg");
   background-position: 50% 39.44%;
-}
-
-.u-section-1 .u-sheet-1 {
   min-height: 100vh;
 }
 
@@ -28,7 +25,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 102px auto 60px;
+  margin: 102px auto 0;
 }
 
 @media (max-width: 1199px) {
@@ -46,27 +43,27 @@
 @media (max-width: 991px) {
   .u-section-1 .u-text-1 {
     width: auto;
-    margin-top: 114px;
-    margin-right: 44px;
-    margin-left: 44px;
+    margin-top: 115px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
   .u-section-1 .u-btn-1 {
-    margin-top: 57px;
-    margin-left: 327px;
+    margin-top: 54px;
+    margin-left: auto;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-text-1 {
     margin-top: 81px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: calc(((100% - 540px) / 2));
+    margin-right: calc(((100% - 540px) / 2));
   }
 
   .u-section-1 .u-btn-1 {
     margin-top: 61px;
-    margin-left: 237px;
+    margin-left: calc(((100% - 540px) / 2) + 187px);
   }
 }
 
@@ -77,13 +74,20 @@
 
   .u-section-1 .u-text-1 {
     margin-top: 73px;
-    margin-right: 1px;
-    margin-left: auto;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-1 .u-btn-1 {
-    margin-top: 46px;
-    margin-left: 137px;
+    margin-top: 48px;
+    margin-left: calc(((100% - 540px) / 2) + 186px);
     padding: 8px 31px 8px 30px;
   }
 }
+/* WhatsApp Button */
+
+.whatsappbutton { background-color: #7ACC72; /* Green */ border: none; color: white; text-align: center; text-decoration: none; font-size: 16px; border-radius: 20px; padding: 10px 20px; margin-top: 10px !important; width: fit-content; margin: auto; cursor: pointer }
+
+.whatsappbutton span { vertical-align: text-bottom !important; }
+
+.fa-whatsapp { margin-right: 10px; }
