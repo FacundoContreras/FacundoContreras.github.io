@@ -393,9 +393,21 @@
   }
 }
 /* WhatsApp Button */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
 
-.whatsappbutton { background-color: #7ACC72; /* Green */ border: none; color: white; text-align: center; text-decoration: none; font-size: 16px; border-radius: 20px; padding: 10px 20px; margin-top: 10px !important; width: fit-content; margin: auto; cursor: pointer }
-
-.whatsappbutton span { vertical-align: text-bottom !important; }
-
-.fa-whatsapp { margin-right: 10px; }
+.my-float{
+	margin-top:16px;
+}
