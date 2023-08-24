@@ -239,7 +239,7 @@
   }
 
   .u-section-2 .u-btn-2 {
-    margin-top: 27px;
+    margin-top: 31px;
     margin-right: auto;
   }
 
@@ -253,10 +253,6 @@
   background-image: linear-gradient(#f2f2f2, #e9f2fa);
 }
 
-.u-section-3 .u-sheet-1 {
-  min-height: 555px;
-}
-
 .u-section-3 .u-text-1 {
   font-weight: 400;
   margin: 90px auto 0;
@@ -265,10 +261,6 @@
 .u-section-3 .u-layout-wrap-1 {
   margin-top: -14px;
   margin-bottom: 0;
-}
-
-.u-section-3 .u-layout-cell-1 {
-  min-height: 400px;
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -284,10 +276,6 @@
 .u-section-3 .u-text-3 {
   font-weight: 200;
   margin: 38px auto 0;
-}
-
-.u-section-3 .u-layout-cell-2 {
-  min-height: 400px;
 }
 
 .u-section-3 .u-container-layout-2 {
@@ -322,43 +310,7 @@
   color: rgb(0, 122, 185) !important;
 }
 
-@media (max-width: 1199px) {
-  .u-section-3 .u-sheet-1 {
-    min-height: 485px;
-  }
-
-  .u-section-3 .u-layout-cell-1 {
-    min-height: 330px;
-  }
-
-  .u-section-3 .u-layout-cell-2 {
-    min-height: 330px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-3 .u-sheet-1 {
-    min-height: 358px;
-  }
-
-  .u-section-3 .u-layout-cell-1 {
-    min-height: 100px;
-  }
-
-  .u-section-3 .u-layout-cell-2 {
-    min-height: 100px;
-  }
-}
-
 @media (max-width: 767px) {
-  .u-section-3 .u-sheet-1 {
-    min-height: 551px;
-  }
-
-  .u-section-3 .u-layout-cell-1 {
-    min-height: 225px;
-  }
-
   .u-section-3 .u-container-layout-1 {
     padding-left: 10px;
     padding-right: 10px;
@@ -374,10 +326,6 @@
     margin-top: 40px;
     margin-left: 45px;
     margin-right: 45px;
-  }
-
-  .u-section-3 .u-layout-cell-2 {
-    min-height: 234px;
   }
 
   .u-section-3 .u-container-layout-2 {
@@ -396,8 +344,12 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-3 .u-sheet-1 {
+   .u-section-3 {
     min-height: 505px;
+  }
+
+  .u-section-3 .u-text-1 {
+    margin-left: calc(((100% - 340px) / 2) + 10px);
   }
 
   .u-section-3 .u-layout-cell-1 {
@@ -409,9 +361,9 @@
   }
 
   .u-section-3 .u-text-3 {
-    margin-top: 27px;
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-top: 31px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .u-section-3 .u-layout-cell-2 {
