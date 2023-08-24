@@ -42166,17 +42166,10 @@ a.u-link.u-text-hover-grey-90:hover {
   min-height: 87px;
 }
 
-.u-header .u-group-elements-1 {
-  width: 241px;
-  min-height: 64px;
-  height: auto;
-  margin: 12px auto 12px 13px;
-}
-
 .u-header .u-image-1 {
   width: 66px;
   height: 64px;
-  margin: 0 auto 0 0;
+  margin: 12px auto 0 13px;
 }
 
 .u-header .u-logo-image-1 {
@@ -42188,7 +42181,7 @@ a.u-link.u-text-hover-grey-90:hover {
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 1;
-  margin: -64px 0 0 74px;
+  margin: -64px 894px 0 87px;
 }
 
 .u-header .u-btn-1 {
@@ -42200,7 +42193,7 @@ a.u-link.u-text-hover-grey-90:hover {
   font-size: 0.625rem;
   line-height: 1;
   font-weight: normal;
-  margin: 1px 27px 0 74px;
+  margin: 1px 894px 11px 87px;
 }
 
 .u-header .u-btn-2 {
@@ -42211,18 +42204,52 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 1199px) {
   .u-header .u-sheet-1 {
-    min-height: 72px;
+    min-height: 88px;
+  }
+
+  .u-header .u-text-1 {
+    width: auto;
+    margin-right: 689px;
+    margin-left: 92px;
+  }
+
+  .u-header .u-text-2 {
+    width: auto;
+    margin: 0 689px 12px 92px;
   }
 }
 @media (max-width: 991px) {
-  .u-header .u-sheet-1 {
-    min-height: 78px;
+  .u-header .u-text-1 {
+    margin-right: 469px;
+  }
+
+  .u-header .u-text-2 {
+    margin-top: 1px;
+    margin-right: 469px;
   }
 }
+@media (max-width: 767px) {
+  .u-header .u-text-1 {
+    margin-right: 290px;
+    margin-left: 91px;
+  }
 
+  .u-header .u-text-2 {
+    margin-right: 290px;
+    margin-left: 91px;
+  }
+}
 @media (max-width: 575px) {
-  .u-header .u-sheet-1 {
-    min-height: 87px;
+  .u-header .u-text-1 {
+    width: 159px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .u-header .u-text-2 {
+    width: 159px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
  .u-footer {
@@ -42259,7 +42286,15 @@ a.u-link.u-text-hover-grey-90:hover {
     width: 146px;
   }
 }
-/* WhatsApp Button */
+
+
+
+
+ /*begin-variables base-font-size*/ 
+ html { font-size: 16px; }
+ /*end-variables base-font-size*/
+ 
+ /* WhatsApp Button */
 
 .float{
 	position:fixed;
@@ -42279,10 +42314,3 @@ a.u-link.u-text-hover-grey-90:hover {
 .my-float{
 	margin-top:16px;
 }
-
-
-
-
- /*begin-variables base-font-size*/ 
- html { font-size: 16px; }
- /*end-variables base-font-size*/
