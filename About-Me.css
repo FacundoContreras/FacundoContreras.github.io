@@ -15,19 +15,6 @@
 
 .u-section-1 .embed-responsive-1 {
   position: absolute;
-  width: 100%;
-  left: 0%;
-  height: 684%;
-  top: -292%;
-}
-
-@media (max-width: 1199px) {
-  .u-section-1 .embed-responsive-1 {
-    width: 100%;
-    left: auto;
-    height: 100%;
-    top: auto;
-  }
 }
 
 @media (max-width: 767px) {
@@ -394,24 +381,4 @@
   .u-section-3 .u-social-icons-1 {
     margin-top: 27px;
   }
-}
-/* WhatsApp Button */
-
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
-}
-
-.my-float{
-	margin-top:16px;
 }
