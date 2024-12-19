@@ -179,16 +179,17 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 901px;
+    min-height: 637px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     margin-top: 34px;
+    margin-bottom: 34px;
   }
 
   .u-section-1 .u-layout-cell-1 {
     order: 1;
-    min-height: 654px;
+    min-height: 579px;
   }
 
   .u-section-1 .u-text-1 {
@@ -198,6 +199,8 @@
 
   .u-section-1 .u-text-2 {
     margin-top: 21px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-1 .u-text-3 {
